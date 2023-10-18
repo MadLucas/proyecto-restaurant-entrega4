@@ -31,7 +31,7 @@ const Menu = () => {
       <CardGroup className="justify-content-center mt-5">
         {menu.map((comida) => (
           <div key={comida.id} className="mx-3 ms-3">
-            <Card style={{ width: '18rem', height: '250px' }}>
+            <Card style={{ width: '18rem', height: '250px', marginTop:'20px'}}>
               <Card.Img style={{ height: '200px' }} variant="top" src={comida.img} alt={comida.comida} />
               <Card.Body>
                 <Card.Title>{comida.comida.toUpperCase()}</Card.Title>
