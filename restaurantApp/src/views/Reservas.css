@@ -1,0 +1,19 @@
+#inputsContainer {
+    display: flex;
+    margin:auto;
+    max-width: 500px;
+    max-height: 1000px;
+    margin-top: 50px;
+    flex-direction: column;
+
+}
+
+#MyDatePicker {
+    margin: auto;
+    margin-top: 20px;
+}
+
+#submitButton {
+    margin: auto;
+    margin-top: 10px;
+}
