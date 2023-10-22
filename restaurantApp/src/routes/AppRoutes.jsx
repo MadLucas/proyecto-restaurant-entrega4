@@ -5,6 +5,7 @@ import Home from "../views/Home";
 import Reservas from "../views/Reservas";
 import Menu from "../views/Menu";
 import Login from "../views/Login";
+import Admin from "../views/Admin";
 
 const AppRoutes = () => {
   return (
@@ -15,6 +16,7 @@ const AppRoutes = () => {
                 <Route path="/reservas" element={<Reservas/>} />
                 <Route path="/Menu" element={<Menu/>} />
                 <Route path="/Login" element={<Login/>}/>
+                <Route path="/Admin" element={<Admin/>}/>
             </Route>
         </Routes>
     </>
