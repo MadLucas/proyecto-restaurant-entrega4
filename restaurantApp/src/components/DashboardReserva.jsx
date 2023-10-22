@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { db } from '../config/firebase';
 import { collection, getDocs } from 'firebase/firestore';
 import Table from 'react-bootstrap/Table';
+import moment from 'moment'
 
 const DashboardReservas = () => {
     const [reservas, setReservas] = useState([]);
@@ -16,6 +17,13 @@ const DashboardReservas = () => {
                     const data = doc.data();
                     data.id = doc.id;
                     return data;
+                });
+
+                // Ordenamos las fechas para que se puedan ver de mejor manera
+                reservasData.sort((a, b) => {
+                    const fechaA = moment(a.fecha, 'DD/MM/YYYY').format('YYYY-MM-DD');
+                    const fechaB = moment(b.fecha, 'DD/MM/YYYY').format('YYYY-MM-DD');
+                    return fechaA.localeCompare(fechaB);
                 });
 
                 setReservas(reservasData);
@@ -46,7 +54,7 @@ const DashboardReservas = () => {
                             <td>{reserva.id}</td>
                             <td>{reserva.nombre}</td>
                             <td>{reserva.apellido}</td>
-                            <td>{new Date(reserva.fecha.seconds * 1000).toLocaleDateString()}</td>
+                            <td>{moment(reserva.fecha, 'DD/MM/YYYY').format('YYYY-MM-DD')}</td>
                             <td>{reserva.hora}</td>
                         </tr>
                     ))}
@@ -57,3 +65,4 @@ const DashboardReservas = () => {
 };
 
 export default DashboardReservas;
+
