@@ -14,6 +14,7 @@ function Navigate() {
           <Nav className="me-auto">
             <Nav.Link href="/">Home</Nav.Link>
             <Nav.Link href="/Reservas">Reservas</Nav.Link>
+            <Nav.Link href="/Login">Iniciar sesión</Nav.Link>
             <NavDropdown title="Carta" id="basic-nav-dropdown">
               <NavDropdown.Item href="/Menu">Menu</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

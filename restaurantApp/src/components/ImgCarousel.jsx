@@ -15,24 +15,24 @@ function ImgCarousel() {
         {/* Espacio para tu imagen */}
         <img src="https://images.unsplash.com/photo-1607247098789-6a43ebeaba4e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Primer slide" />
         <Carousel.Caption>
-          <h3>Primer slide</h3>
-          <p>Descripción de la primera imagen.</p>
+          <h3>Gastronomia</h3>
+          <p>Ingredientes frescos</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         {/* Espacio para tu segunda imagen */}
         <img src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Segundo slide" />
         <Carousel.Caption>
-          <h3>Segundo slide</h3>
-          <p>Descripción de la segunda imagen.</p>
+          <h3>Gastronomia</h3>
+          <p>Cocina de autor</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
         {/* Espacio para tu tercera imagen */}
         <img src="https://images.unsplash.com/photo-1624904025431-d905ca1ba91e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tercer slide" />
         <Carousel.Caption>
-          <h3>Tercer slide</h3>
-          <p>Descripción de la tercera imagen.</p>
+          <h3>Gastronomia</h3>
+          <p>Delicias de nestra cocina</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>

@@ -6,9 +6,9 @@ import ImgCarousel from "../components/ImgCarousel";
 const Home = () => {
     return (
         <>
-            <div id="carousel_container">
+            <section id="carousel_container">
                 <ImgCarousel/>
-            </div>
+            </section>
         </>
     )
 }

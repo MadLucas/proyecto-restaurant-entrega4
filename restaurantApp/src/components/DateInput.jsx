@@ -1,6 +1,6 @@
-import React from 'react';
-import { InputGroup } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+import React from "react";
+import { InputGroup } from "react-bootstrap";
+import { Form } from "react-bootstrap";
 
 const DateInput = ({ name, value, onChange }) => {
   const handleDateChange = (e) => {
@@ -23,4 +23,3 @@ const DateInput = ({ name, value, onChange }) => {
 };
 
 export default DateInput;
-
