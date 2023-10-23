@@ -12,27 +12,30 @@ function ImgCarousel() {
   return (
     <Carousel activeIndex={index} onSelect={handleSelect}>
       <Carousel.Item>
-        {/* Espacio para tu imagen */}
-        <img src="https://images.unsplash.com/photo-1607247098789-6a43ebeaba4e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Primer slide" />
+        <div className="carousel-image-container">
+          <img className="carousel-img" src="https://images.unsplash.com/photo-1607247098789-6a43ebeaba4e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Primer slide" />
+        </div>
         <Carousel.Caption>
           <h3>Gastronomia</h3>
           <p>Ingredientes frescos</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* Espacio para tu segunda imagen */}
-        <img src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Segundo slide" />
+        <div className="carousel-image-container">
+          <img className="carousel-img" src="https://images.unsplash.com/photo-1512132411229-c30391241dd8?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Segundo slide" />
+        </div>
         <Carousel.Caption>
           <h3>Gastronomia</h3>
           <p>Cocina de autor</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        {/* Espacio para tu tercera imagen */}
-        <img src="https://images.unsplash.com/photo-1624904025431-d905ca1ba91e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tercer slide" />
+        <div className="carousel-image-container">
+          <img className="carousel-img" src="https://images.unsplash.com/photo-1624904025431-d905ca1ba91e?auto=format&fit=crop&q=80&w=2070&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Tercer slide" />
+        </div>
         <Carousel.Caption>
           <h3>Gastronomia</h3>
-          <p>Delicias de nestra cocina</p>
+          <p>Delicias de nuestra cocina</p>
         </Carousel.Caption>
       </Carousel.Item>
     </Carousel>
