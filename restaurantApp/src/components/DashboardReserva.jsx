@@ -37,7 +37,7 @@ const DashboardReservas = () => {
 
     return (
         <div>
-            <h1>Reservas</h1>
+            <h1 className='text-light'>Reservas</h1>
             <Table striped bordered hover>
                 <thead>
                     <tr>

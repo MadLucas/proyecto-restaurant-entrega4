@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import DateInput from "../components/DateInput";
 import { InputGroup } from "react-bootstrap";
-import { Form, Button, Card } from "react-bootstrap";
+import { Form, Button, Card, Container } from "react-bootstrap";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../config/firebase";
 
@@ -39,7 +39,9 @@ const Reservas = () => {
   };
 
   return (
-    <Card className="bg-danger text-white m-auto p-4">
+    <>
+    <Container className="d-flex justify-content-center" style={{flexWrap:"wrap"}}>
+    <Card className="bg-danger text-white m-2 p-2">
       <h4 className="text-center">Ingresa tu reserva</h4>
       <div id="inputsContainer">
         <div>
@@ -99,6 +101,12 @@ const Reservas = () => {
         </div>
       </div>
     </Card>
+    <Card className="bg-primary m-2 p-2">
+      <Card.Body className="text-light text-center">50% de descuento Lunes, Martes y Miercoles</Card.Body>
+      <Card.Img src="https://images.unsplash.com/photo-1615361200141-f45040f367be?auto=format&fit=crop&q=80&w=1964&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" style={{width:"250px", margin:"auto"}}></Card.Img>
+    </Card>
+    </Container>
+    </>
   );
 };
 

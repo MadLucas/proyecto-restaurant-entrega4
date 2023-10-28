@@ -1,7 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from 'react-bootstrap';
 import ImgCarousel from "../components/ImgCarousel";
-import "../views/Home.css"
+import "../views/HomeStyles.css";
 
 const Home = () => {
     return (
@@ -18,7 +18,7 @@ const Home = () => {
                                 optio vitae iusto minus aliquam commodi sapiente.
                             </p>
                         </Col>
-                        <Col md={6} className="ImgCarousel-container my-2">
+                        <Col md={6} className="ImgCarousel-container mt-1">
                             <ImgCarousel />
                         </Col>
                     </Row>
