@@ -17,8 +17,8 @@ function Navigate() {
             <Nav.Link href="/Login">Iniciar sesión</Nav.Link>
             <NavDropdown title="Carta" id="basic-nav-dropdown">
               <NavDropdown.Item href="/Menu">Menu</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Bebidas
+              <NavDropdown.Item href="/Bebestibles">
+                Bebestibles
               </NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="#action/3.4">
