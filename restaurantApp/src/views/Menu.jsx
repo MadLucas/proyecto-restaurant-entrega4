@@ -28,7 +28,7 @@ const Menu = () => {
   return (
     <section>
       <h1 className="text-center text-light">Menu</h1>
-      <CardGroup className="justify-content-center mt-5">
+      <CardGroup className="justify-content-center my-5">
         {menu.map((comida) => (
           <div key={comida.id} className="mx-3 ms-3">
             <Card style={{ width: '18rem', height: '250px', marginTop:'20px'}}>

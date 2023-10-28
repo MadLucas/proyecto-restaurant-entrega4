@@ -1,28 +1,8 @@
-
-
-.banner{
-    background-color: bisque;
-    width: 100%;
+.main-container {
     height: 70vh;
-    display: flex;
-    text-align: center;
-
 }
 
-.carousel{
-    width: 50vw;
-    background-color: aqua;
-    height: 50vh;
-}
-
-.carousel-img {
-    max-width: 100%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    max-height: 100%; /* Ajusta la altura de la imagen al 100% del contenedor */
-    width: auto;
-    height: auto;
-}
-
-.carousel-image-container {
-    display: flex;
-    justify-content: center;
+.banner {
+    height: 100%; /* El encabezado ocupa el 40% del alto del contenedor principal */
+    
 }

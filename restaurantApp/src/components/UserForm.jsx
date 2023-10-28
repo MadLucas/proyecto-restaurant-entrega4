@@ -19,7 +19,7 @@ function UserForm() {
   };
 
   return (
-    <Card className="mx-auto mt-5" style={{ maxWidth: '600px' }}>
+    <Card className="mx-auto my-5" style={{ maxWidth: '600px' }}>
       <Card.Body>
         <h3 className="text-center">Ingresar Usuario</h3>
         <Form>
