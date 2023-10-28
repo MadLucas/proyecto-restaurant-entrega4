@@ -8,7 +8,7 @@ const Home = () => {
         <header>
             <div className="banner">
                 <div className="banner-text my-auto">
-                    <h1>Bienvenido a Nuestra Cocina Restaurant</h1>
+                    <h1>Nuestra Cocina Restaurant</h1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                         Rem, laboriosam. Doloremque nesciunt eaque quaerat, voluptas
