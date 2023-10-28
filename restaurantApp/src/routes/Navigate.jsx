@@ -21,7 +21,7 @@ function Navigate() {
                 Bebestibles
               </NavDropdown.Item>
               <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
+              <NavDropdown.Item href="/Nosotros">
                 Nosotros
               </NavDropdown.Item>
             </NavDropdown>
