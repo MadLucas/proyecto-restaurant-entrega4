@@ -25,8 +25,8 @@ function ImgCarousel2() {
           <img className="carousel-img" src="https://www.eltiempo.com/files/image_1200_680/uploads/2022/11/11/636ec9b036dfd.png" alt="Segundo slide" />
         </div>
         <Carousel.Caption>
-          <h3>Gastronomia</h3>
-          <p>Cocina de autor</p>
+          <h3>Restaurant de Primer Nivel</h3>
+          <p>Comida de Calidad</p>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
@@ -34,7 +34,7 @@ function ImgCarousel2() {
           <img className="carousel-img" src="https://offloadmedia.feverup.com/madridsecreto.co/wp-content/uploads/2022/12/27165744/exterior-grillao-chamberi-1-1024x683.jpg" alt="Tercer slide" />
         </div>
         <Carousel.Caption>
-          <h3>Gastronomia</h3>
+          <h3>Restaurant</h3>
           <p>Delicias de nuestra cocina</p>
         </Carousel.Caption>
       </Carousel.Item>
