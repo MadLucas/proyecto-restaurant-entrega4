@@ -4,6 +4,7 @@ import { InputGroup } from "react-bootstrap";
 import { Form, Button, Card, Container } from "react-bootstrap";
 import { addDoc, collection } from "firebase/firestore";
 import { db } from "../config/firebase";
+import "./Reservas.css";
 
 const Reservas = () => {
   const [cliente, setCliente] = useState({
